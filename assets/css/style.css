@@ -1184,7 +1184,14 @@ section .container {
     background: rgba(0, 0, 0, 0.8);
   }
 }
-
+.resume-image {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px; /* Add margin to create spacing */
+  border-radius: 5px; /* Add border radius for a rounded look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  float: right; /* Align the images to the right */
+}
 .credits a {
   color: #18d26e;
   transition: 0.3s;
